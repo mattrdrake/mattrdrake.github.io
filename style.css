@@ -16,24 +16,32 @@ body, html {
     background-size: cover;
 }
 
-/* First image (Logo. Full height) */
-.bgimg-1 {
-    background-image: url('images/matt1.png');
+/* First image (Logo. Full height) for background image*/
+/* .bgimg-1 {
+    background: url('images/matt1.png');
     min-height: 100%;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+} */
+/* First image (Logo. Full height) for background vid*/
+#vid {
+  min-height: 100%;
+  max-width: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("images/guitar.png");
+    background-image: url("images/skills.png");
     min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("images/matt5.png");
+    background-image: url("images/contact.png");
     min-height: 400px;
 }
 
