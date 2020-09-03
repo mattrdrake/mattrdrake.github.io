@@ -1,56 +1,76 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif;
+}
+
+body,
+html {
     height: 100%;
     color: #777;
     line-height: 1.8;
 }
-#myNavbar {
-  color: #fff;
+
+#nav {
+    color: #fff;
 }
 
-/* Create a Parallax Effect */
-.bgimg-2, .bgimg-3 {
+#nav a .fa {
+    margin-right: 8px;
+}
+
+.bgimg-2,
+.bgimg-3 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* First image (Logo. Full height) for background image*/
-/* .bgimg-1 {
-    background: url('images/matt1.png');
-    min-height: 100%;
+#main_bg {
+    height: 100%;
+    width: 100%;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-} */
-/* First image (Logo. Full height) for background vid*/
-#vid {
-  min-height: 100%;
-  max-width: 100%;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-/* Second image (Portfolio) */
 .bgimg-2 {
     background-image: url("images/skills.png");
     min-height: 400px;
 }
 
-/* Third image (Contact) */
 .bgimg-3 {
     background-image: url("images/contact.png");
     min-height: 400px;
 }
 
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
+.w3-wide {
+    letter-spacing: 10px;
+}
 
-/* Turn off parallax scrolling for tablets and phones */
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
         background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #nav a .fa {
+        margin-right: 0px;
+    }
+    #title {
+        font-size: 20px!important;
     }
 }

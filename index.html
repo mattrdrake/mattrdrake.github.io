@@ -1,240 +1,185 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>mattdrakedev.com</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="style.css">
+    <title>mattdrakedev.com</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i>SKILLS</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>CONTACT</a>
-    </a>
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">SKILLS</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-  </div>
-</div>
-
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MATT<span class="w3-hide-small"></span>DRAKE</span>
-  </div>
-  <video id="vid" autoplay muted loop src="images/devbg.mp4"/>
-</div>
-
-<!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">WEB DEVELOPMENT</h3>
-  <!-- <p class="w3-center"><em>"I offer personalised guitar tuition for all ages"</em></p> -->
-  <h4 class="w3-center">Front-end developer based in the UK with a passion for web development. </br>I like simplicity and responsiveness, so always try to get the message across in a proffesional polished manner.
-    Available for freelance work.
-    </h4>
-  <p class="w3-center"></br><strong>See below for my background and what I can do.</strong></p>
-
-  <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
-    <br>
-      <img src="images/matt3.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
-    </div>
-
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-padding-large">
-      <h3 class="w3-center">ABOUT ME</h3>
-      <p>Hi everyone! I am Matt, I am 20 years old, and I work as a junior software developer in Exeter UK.
-        Technology has been one of my biggest passions so taking the decision to pursue web development has been one my my greatest decisions of my life.
-        I have a few years experience within the industry now and my skills continue to grow every day.
-        I pursue new technolgies in my spare time whenever I get the chance, and my goal is become fully competant in both front-end and back-end development in the future.
-      </p>
-    </div>
-  </div>
-<!--   <p class="w3-large w3-center w3-padding-16">Skills:</p>
-  <p class="w3-wide"><i class="fas fa-music"></i>Music</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:65%">65%</div>
-  </div> -->
-</div>
-
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <!-- <h3 class="w3-center">SKILLS</h3> -->
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Web</span><br>
-    HTML, CSS, Jquery
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Programming</span><br>
-    Javascript, PHP
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Design</span><br>
-    GIMP, Photoshop, XD
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">Other</span><br>
-    LINUX, GIT, CLI
-  </div>
-</div>
-
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">SKILLS</span>
-  </div>
-</div>
-
-<!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <!-- <h3 class="w3-center"></h3><br> -->
-  <!-- Grid for pricing tables -->
-      <div class="w3-row-padding" style="margin:0 -16px">
-        <div class="w3-half w3-margin-bottom">
-          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-            <li class="w3-dark-grey w3-xlarge w3-padding-32">Design</li>
-            <li class="w3-padding-16">UI</li>
-            <li class="w3-padding-16">UX</li>
-            <li class="w3-padding-16">Logo</li>
-            <li class="w3-padding-16">
-              <i class="fa fa-mobile" style="font-size:36px"></i>
-            </li>
-          </ul>
+    <!-- Nav -->
+    <div class="w3-top">
+        <div class="w3-bar" id="nav">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button"> HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>ABOUT</a>
+            <a href="#skills" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i>SKILLS</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>CONTACT</a>
+            </a>
         </div>
 
-        <div class="w3-half">
-          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-            <li class="w3-dark-grey w3-xlarge w3-padding-32">Development</li>
-            <li class="w3-padding-16">Websites</li>
-            <li class="w3-padding-16">Web apps</li>
-            <li class="w3-padding-16">API</li>
-            <li class="w3-padding-16">
-              <i class="fa fa-code" style="font-size:30px"></i>
-            </li>
-          </ul>
+        <!-- Mobile nav -->
+        <div id="nav_mobile" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="#skills" class="w3-bar-item w3-button" onclick="toggleFunction()">SKILLS</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
         </div>
-</div>
-</div>
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
-
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-  </div>
-</div>
-
-<!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">WHERE TO REACH ME</h3>
-  <p class="w3-center"><em>Give me a call, text, or email for any enquiries</em></p>
-
-  <div class="w3-row w3-padding-32 w3-section">
-    <!-- <div class="w3-col m4 w3-container"> -->
-      <!-- Add Google Maps -->
-      <!-- <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
-    </div> -->
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> CHUDLEIGH, DEVON<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 07710 567097<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mattrdrake@hotmail.com<br>
-      </div>
-      <p>If I am unable to take your call, please leave a message and I will get back to you as soon as possible.</p>
     </div>
-  </div>
-</div>
 
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <a href="https://www.facebook.com/matt.drake.737?ref=bookmarks"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-    <a href="https://www.instagram.com/_mattdrake/?hl=en"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-    <a href="https://www.linkedin.com/in/matt-drake-916148152/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-  </div>
-  <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
-</footer>
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span id="title" class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MATT DRAKE</span>
+        </div>
+        <video id="main_bg" autoplay muted loop src="images/devbg.mp4" />
+    </div>
 
-<!-- Add Google Maps -->
-<script>
-function myMap()
-{
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+    <!-- About -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">Web developer based in the UK</h3>
+        <h4 class="w3-center">Available for freelance work</h4>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <br>
+                <img src="images/profile.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
+                    alt="Photo of Me" width="500" height="333">
+            </div>
 
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
+            <div class="w3-col m6 w3-padding-large">
+                <h3 class="w3-center">ABOUT ME</h3>
+                <p>Hi everyone! I'm Matt, I'm 22 years old, and I work as a web developer in the UK. Technology is one of my greates passions, so taking the decision to pursue web development has been one of the best decisions of my life. I have years of experience within the industry now, and my skills continue to grow all the time. I like to learn new technologies in my spare time (whenever I get the chance), and my goal is to become fully competant in both front-end and back-end development in the future.
+                </p>
+            </div>
+        </div>
+    </div>
 
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">Web</span><br>
+            HTML | CSS | Jquery
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">Programming</span><br>
+            Javascript | PHP
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">Design</span><br>
+            GIMP | Photoshop | XD
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">Other</span><br>
+            LINUX | GIT | CLI
+        </div>
+    </div>
 
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-}
+    <div class="bgimg-2 w3-display-container w3-opacity-min" id="skills">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">SKILLS</span>
+        </div>
+    </div>
 
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
+    <!-- Skills -->
+    <div class="w3-content w3-container w3-padding-64">
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-half w3-margin-bottom">
+                <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                    <li class="w3-dark-grey w3-xlarge w3-padding-32">Design</li>
+                    <li class="w3-padding-16">UI</li>
+                    <li class="w3-padding-16">UX</li>
+                    <li class="w3-padding-16">Logo</li>
+                    <li class="w3-padding-16">
+                        <i class="fa fa-mobile" style="font-size:36px"></i>
+                    </li>
+                </ul>
+            </div>
 
+            <div class="w3-half">
+                <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                    <li class="w3-dark-grey w3-xlarge w3-padding-32">Development</li>
+                    <li class="w3-padding-16">Websites</li>
+                    <li class="w3-padding-16">Web apps</li>
+                    <li class="w3-padding-16">API</li>
+                    <li class="w3-padding-16">
+                        <i class="fa fa-code" style="font-size:30px"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+                class="fa fa-remove"></i></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+
+    <div class="bgimg-3 w3-display-container w3-opacity-min" id="contact">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="w3-content w3-container w3-padding-64">
+        <h3 class="w3-center">WHERE TO REACH ME</h3>
+        <div class="w3-row w3-section">
+            <div class="w3-col m8 w3-panel">
+                <div class="w3-large">
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> UNITED KINGDOM<br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> mattrdrake@hotmail.com<br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+            <!-- <a href="https://www.facebook.com/matt.drake.737?ref=bookmarks"><i
+                    class="fa fa-facebook-official w3-hover-opacity"></i></a> -->
+            <!-- <a href="https://www.instagram.com/_mattdrake/?hl=en"><i class="fa fa-instagram w3-hover-opacity"></i></a> -->
+            <a href="https://www.linkedin.com/in/matt-drake-916148152/"><i
+                    class="fa fa-linkedin w3-hover-opacity"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        // Change style of nav on scroll
+        window.onscroll = function () {
+            changeNav()
+        };
+        function changeNav() {
+            var navbar = document.getElementById("nav");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+            } else {
+                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            }
+        }
+        // Menu toggle
+        function toggleFunction() {
+            var x = document.getElementById("nav_mobile");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
 </body>
+
 </html>
