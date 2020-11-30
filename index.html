@@ -1,185 +1,67 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <title>mattdrakedev.com</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-
-    <!-- Nav -->
-    <div class="w3-top">
-        <div class="w3-bar" id="nav">
-            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
-                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-                <i class="fa fa-bars"></i>
-            </a>
-            <a href="#home" class="w3-bar-item w3-button"> HOME</a>
-            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>ABOUT</a>
-            <a href="#skills" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i>SKILLS</a>
-            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>CONTACT</a>
-            </a>
-        </div>
-
-        <!-- Mobile nav -->
-        <div id="nav_mobile" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-            <a href="#skills" class="w3-bar-item w3-button" onclick="toggleFunction()">SKILLS</a>
-            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-        </div>
-    </div>
-
-    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-        <div class="w3-display-middle" style="white-space:nowrap;">
-            <span id="title" class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MATT DRAKE</span>
-        </div>
-        <video id="main_bg" autoplay muted loop src="images/devbg.mp4" />
-    </div>
-
-    <!-- About -->
-    <div class="w3-content w3-container w3-padding-64" id="about">
-        <h3 class="w3-center">Web developer based in the UK</h3>
-        <h4 class="w3-center">Available for freelance work</h4>
-        <div class="w3-row">
-            <div class="w3-col m6 w3-center w3-padding-large">
-                <br>
-                <img src="images/profile.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
-                    alt="Photo of Me" width="500" height="333">
-            </div>
-
-            <div class="w3-col m6 w3-padding-large">
-                <h3 class="w3-center">ABOUT ME</h3>
-                <p>Hi everyone! I'm Matt, I'm 22 years old, and I work as a web developer in the UK. Technology is one of my greates passions, so taking the decision to pursue web development has been one of the best decisions of my life. I have years of experience within the industry now, and my skills continue to grow all the time. I like to learn new technologies in my spare time (whenever I get the chance), and my goal is to become fully competant in both front-end and back-end development in the future.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-        <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">Web</span><br>
-            HTML | CSS | Jquery
-        </div>
-        <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">Programming</span><br>
-            Javascript | PHP
-        </div>
-        <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">Design</span><br>
-            GIMP | Photoshop | XD
-        </div>
-        <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">Other</span><br>
-            LINUX | GIT | CLI
-        </div>
-    </div>
-
-    <div class="bgimg-2 w3-display-container w3-opacity-min" id="skills">
-        <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-white w3-wide">SKILLS</span>
-        </div>
-    </div>
-
-    <!-- Skills -->
-    <div class="w3-content w3-container w3-padding-64">
-        <div class="w3-row-padding" style="margin:0 -16px">
-            <div class="w3-half w3-margin-bottom">
-                <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-                    <li class="w3-dark-grey w3-xlarge w3-padding-32">Design</li>
-                    <li class="w3-padding-16">UI</li>
-                    <li class="w3-padding-16">UX</li>
-                    <li class="w3-padding-16">Logo</li>
-                    <li class="w3-padding-16">
-                        <i class="fa fa-mobile" style="font-size:36px"></i>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="w3-half">
-                <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-                    <li class="w3-dark-grey w3-xlarge w3-padding-32">Development</li>
-                    <li class="w3-padding-16">Websites</li>
-                    <li class="w3-padding-16">Web apps</li>
-                    <li class="w3-padding-16">API</li>
-                    <li class="w3-padding-16">
-                        <i class="fa fa-code" style="font-size:30px"></i>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
-                class="fa fa-remove"></i></span>
-        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-            <img id="img01" class="w3-image">
-            <p id="caption" class="w3-opacity w3-large"></p>
-        </div>
-    </div>
-
-    <div class="bgimg-3 w3-display-container w3-opacity-min" id="contact">
-        <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-        </div>
-    </div>
-
-    <!-- Contact -->
-    <div class="w3-content w3-container w3-padding-64">
-        <h3 class="w3-center">WHERE TO REACH ME</h3>
-        <div class="w3-row w3-section">
-            <div class="w3-col m8 w3-panel">
-                <div class="w3-large">
-                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> UNITED KINGDOM<br>
-                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> mattrdrake@hotmail.com<br>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        
+        <title>Matt Drake Front End Developer</title>
+    </head>
+    <body>
+        <div id="site">
+            <div class="container">
+                <header class="text-center spaced-out">
+                    <h1 class="mb-3 display-3 font-weight-bold"><a href="index.html">Matt Drake</a></h1>
+                    <p class="mb-2 mb-md-5 text-muted">Front end developer</p>
+                </header>
+                <!-- <nav>
+                    <ul>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Experience</a></li>
+                    </ul>
+                </nav> -->
+                <div class="row py-5">
+                    <div class="col-12 col-md-4 pb-5 pb-md-0 img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1607&q=80" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-12 col-md-8 px-5">
+                        <h2 class="font-weight-bolder">Career</h2>
+                        <p>Web developer based in the UK, passionate about development and technology, with 2-3 years industry experience in front-end and full stack development.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row py-5">
+                    <div class="col-12 col-md-8 px-5 pb-5 pb-md-0">
+                        <h2 class="font-weight-bolder">Frontend Developer Experience</h2>
+                        <p><b>Developer - Epraise</b></p>
+                        <p>Updated and maintained company software across the web, api, and mobile app platforms. Developing on existing front-end skills, and using PHP, Java, and Swift</p>
+                        <p><b>Junior front-end developer - WifiSpark</b></p>
+                        <p>Collaborated with the UX team to redesign, and set standards for software usability and user experience. Built wifi portal pages using HTML, JQuery, and CSS.</p>
+                    </div>
+                    <div class="col-12 col-md-4 img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1567&q=80" class="img-fluid" alt="Responsive image">
+                    </div>
+                </div>
+                <hr>
+                <div class="row py-5">
+                    <div class="col-12 col-md-4 pb-5 pb-md-0 img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1544228865-7d73678c0f28?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1650&q=80" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-12 col-md-8 px-5">
+                        <h2 class="font-weight-bolder">Contact</h2>
+                        <p>Email: mattrdrake@hotmail.com</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Footer -->
-    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-        <div class="w3-xlarge w3-section">
-            <!-- <a href="https://www.facebook.com/matt.drake.737?ref=bookmarks"><i
-                    class="fa fa-facebook-official w3-hover-opacity"></i></a> -->
-            <!-- <a href="https://www.instagram.com/_mattdrake/?hl=en"><i class="fa fa-instagram w3-hover-opacity"></i></a> -->
-            <a href="https://www.linkedin.com/in/matt-drake-916148152/"><i
-                    class="fa fa-linkedin w3-hover-opacity"></i></a>
-        </div>
-    </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-    <script>
-        // Change style of nav on scroll
-        window.onscroll = function () {
-            changeNav()
-        };
-        function changeNav() {
-            var navbar = document.getElementById("nav");
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-            } else {
-                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-            }
-        }
-        // Menu toggle
-        function toggleFunction() {
-            var x = document.getElementById("nav_mobile");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-            }
-        }
-    </script>
-</body>
-
+    </body>
 </html>
