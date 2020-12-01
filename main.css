@@ -37,7 +37,19 @@ img {
     text-transform: uppercase;
 }
 
+.fab, .fas {
+    font-size: 1.5rem;
+    color: #333;
+}
+.fab:hover, .fas:hover {
+    color: #757575;
+}
+
 @media (max-width: 767.98px) {
+
+    h2 {
+        font-size: 1.75rem;
+    }
 
     #site {
         padding: 40px 20px;
