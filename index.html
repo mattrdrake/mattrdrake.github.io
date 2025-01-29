@@ -1,65 +1,115 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="main.css">
-                
-        <title>Matt Drake Software Engineer</title>
-    </head>
-    <body>
-        <div id="site">
-            <div class="container">
-                <header class="text-center spaced-out">
-                    <h1 id="title" class="mb-3 display-3 font-weight-bold"><a href="index.html">Matt Drake</a></h1>
-                    <p id="subtitle" class="mb-2 mb-md-5 text-muted">Software Engineer</p>
-                </header>
-                <div class="row py-5">
-                    <div class="col-12 col-md-6 col-lg-4 pb-5 pb-md-0 my-auto img-wrapper">
-                        <img src="images/macbook.jpg" class="img-fluid" alt="Responsive image">
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-8 px-3 pl-md-4 pl-lg-5 my-auto">
-                        <h2 class="font-weight-bolder">Career</h2>
-                        <p>Software Engineer based in the UK, passionate about development and technology, with many years of industry experience in Front-End and Full-Stack development.</p>
-                    </div>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+
+    <title>Matt Drake Software Engineer</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbar-hidden" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">MATT DRAKE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#career">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="site">
+
+        <div id="title-container" class="container spaced-out full-height">
+
+
+            <div class="text-center">
+                <h1 id="title" class="mb-3 display-3 font-weight-bold"><a href="index.html">Matt Drake</a></h1>
+                <p id="subtitle" class="mb-2 mb-md-5 text-muted">Software Engineer</p>
+                <a href="#anchor" class="scroll-button mt-3"><i class="bi bi-arrow-down"></i></a>
+            </div>
+
+        </div>
+
+        <div id="anchor" class="mb-5 h-0"></div>
+
+        <div class="container fade-in" id="content">
+
+            <div class="row py-5" id="career">
+                <div class="col-12 col-md-6 col-lg-4 pb-5 pb-md-0 my-auto img-wrapper">
+                    <img src="images/profile.jpeg" class="img-fluid" alt="Responsive image">
                 </div>
-                <hr>
-                <div class="row py-5">
-                    <div class="col-12 col-md-6 col-lg-8 px-3 pr-md-4 pr-lg-5 my-auto order-2 order-md-1">
-                        <h2 class="font-weight-bolder">Experience</h2>
-                        <p><b>Software Developer - Epraise</b></p>
-                        <p>Updated and maintained company software across the web, API, and mobile app platforms. Developing on existing Front-End skills, and using PHP, Java, and Swift.</p>
-                        <p><b>Junior Front-End Developer - WifiSpark</b></p>
-                        <p>Collaborated with the UX team to redesign, and set standards for software usability and user experience. Built wifi portal pages using HTML, CSS, and JQuery.</p>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 pb-5 pb-md-0 my-auto order-1 order-md-2 img-wrapper">
-                        <img src="images/dev-books.jpg" class="img-fluid" alt="Responsive image">
-                    </div>
+                <div class="col-12 col-md-6 col-lg-8 px-3 pl-md-4 pl-lg-5 my-auto">
+                    <h2 class="font-weight-bolder">Career</h2>
+                    <p>Software Engineer based in the UK, passionate about development and technology, with many years
+                        of industry experience in Front-End and Full-Stack development.</p>
                 </div>
-                <hr>
-                <div class="row py-5">
-                    <div class="col-12 col-md-6 col-lg-4 pb-5 pb-md-0 my-auto img-wrapper">
-                        <img src="images/phone.jpg" class="img-fluid" alt="Responsive image">
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-8 px-3 pl-md-4 pl-lg-5 my-auto">
-                        <h2 class="font-weight-bolder mb-3">Contact</h2>
-                        <p>
-                            <a href="mailto:mattrdrake@hotmail.com">Mail</a>
-                        </p>
-                        <p>
-                            <a href="https://www.linkedin.com/in/matt-drake-916148152" target="blank">LinkedIn</a>
-                        </p>
-                    </div>
+            </div>
+            <hr>
+            <div class="row py-5" id="experience">
+                <div class="col-12 col-md-6 col-lg-8 px-3 pr-md-4 pr-lg-5 my-auto order-2 order-md-1">
+                    <h2 class="font-weight-bolder">Experience</h2>
+                    <p><b>Software Developer - Epraise</b></p>
+                    <p>Updated and maintained company software across the web, API, and mobile app platforms. Developing
+                        on existing Front-End skills, and using PHP, Java, and Swift.</p>
+                    <p><b>Junior Front-End Developer - WifiSpark</b></p>
+                    <p>Collaborated with the UX team to redesign, and set standards for software usability and user
+                        experience. Built wifi portal pages using HTML, CSS, and JQuery.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 pb-5 pb-md-0 my-auto order-1 order-md-2 img-wrapper">
+                    <img src="images/dev-books.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+            <hr>
+            <div class="row py-5" id="contact">
+                <div class="col-12 col-md-6 col-lg-4 pb-5 pb-md-0 my-auto img-wrapper">
+                    <img src="images/phone.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-12 col-md-6 col-lg-8 px-3 pl-md-4 pl-lg-5 my-auto">
+                    <h2 class="font-weight-bolder mb-3">Contact</h2>
+                    <p>
+                        <a href="mailto:mattrdrake@hotmail.com" class="text-dark"><i class="bi bi-envelope"></i></a>
+                    </p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/matt-drake-916148152" target="blank" class="text-dark"><i
+                                class="bi bi-linkedin"></i></a>
+                    </p>
                 </div>
             </div>
         </div>
+    </div>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 
-    </body>
+</body>
+
 </html>
