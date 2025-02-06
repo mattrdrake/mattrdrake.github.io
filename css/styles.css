@@ -1,6 +1,7 @@
 @import url("https://rsms.me/inter/inter.css");
 html {
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 @supports (font-variation-settings: normal) {
   html {
@@ -38,10 +39,6 @@ img {
   margin: 0 auto;
 }
 
-#site {
-  margin: 0px auto;
-}
-
 .spaced-out {
   letter-spacing: 8px;
   text-transform: uppercase;
@@ -53,29 +50,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.navbar-hidden {
-  transform: translateY(-100%);
-  transition: transform 0.3s ease-in-out;
-  position: fixed;
-  width: 100%;
-}
-
-.navbar-visible {
-  transform: translateY(0);
-  transition: transform 0.3s ease-in-out;
-  position: fixed;
-  width: 100%;
-}
-
-.fade-in {
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-
-.fade-in.visible {
-  opacity: 1;
 }
 
 .scroll-button {
@@ -166,4 +140,23 @@ footer a:hover {
   #subtitle {
     font-size: 0.7rem;
   }
+}
+
+.navbar-hidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-visible {
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transition: opacity 0.75s ease-in-out;
+}
+
+.fade-in-section.visible {
+  opacity: 1;
 }

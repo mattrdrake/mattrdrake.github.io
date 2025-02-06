@@ -3,5 +3,4 @@ Personal Website
 
 TODO:
 * Blog
-* Projects
-* Skills
+* Work
