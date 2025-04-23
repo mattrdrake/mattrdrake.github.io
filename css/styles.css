@@ -160,3 +160,7 @@ footer a:hover {
 .fade-in-section.visible {
   opacity: 1;
 }
+
+.section-heading {
+  margin-bottom: 36px;
+}
